@@ -18,5 +18,6 @@ steps:
   - 'northamerica-northeast1'
   - '--port'
   - '80'
+  - '--allow-unauthenticated'
 images:
 - 'gcr.io/$PROJECT_ID/restaurants:$COMMIT_SHA'
