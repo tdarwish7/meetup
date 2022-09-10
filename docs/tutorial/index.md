@@ -2,7 +2,7 @@
 next_page: app.md
 ---
 
-## The command you just ran
+## The comd you just ran
 
 Congratulations! You have started the container for this tutorial!
 Let's first explain the command that you just ran. In case you forgot,
@@ -12,7 +12,7 @@ here's the command:
 docker run -d -p 80:80 docker/getting-started
 ```
 
-You'll notice a few flags being used. Here's some more info on them:
+You'll notice a few flags being used. Here more info on them:
 
 - `-d` - run the container in detached mode (in the background)
 - `-p 80:80` - map port 80 of the host to port 80 in the container
